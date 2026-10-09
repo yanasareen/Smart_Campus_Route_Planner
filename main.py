@@ -43,7 +43,7 @@ def run_planner(start_location, goal_location):
         print("No route found.")
 
     print("\n==================================================")
-    print(" VIVA COMPARISON & EFFICIENCY ANALYSIS")
+    print(" EFFICIENCY ANALYSIS")
     print("==================================================")
     print(f"Dijkstra Nodes Explored : {d_nodes}")
     print(f"A* Search Nodes Explored: {a_nodes}")
