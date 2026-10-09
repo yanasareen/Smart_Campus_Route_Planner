@@ -36,8 +36,6 @@ Smart_Campus_Route_Planner/
 - **Evaluation Function**: $f(n) = g(n) + h(n)$
 - **$g(n)$**: Exact path cost from start to node $n$.
 - **$h(n)$**: Heuristic estimate of remaining cost from node $n$ to goal.
-- **Euclidean Distance Heuristic**:
-  $$h(n) = \sqrt{(x_{\text{goal}} - x_n)^2 + (y_{\text{goal}} - y_n)^2}$$
 - **Admissibility**: Because straight-line distance is physically the shortest possible distance between two points on a plane, $h(n) \le h^*(n)$ (never overestimates real path cost). This guarantees $A^*$ finds the optimal path.
 
 ---
